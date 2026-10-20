@@ -1,0 +1,74 @@
+[
+ {
+  "id": 9228,
+  "name": "گوشی اپل آیفون 11 Apple iPhone 11 256GB",
+  "type": "simple",
+  "permalink": "https://baaneeh.com/apple-iphone-11-256gb-6-1-inches",
+  "sku": "a-b21628",
+  "prices": {
+   "price": "15173400",
+   "regular_price": "15173400",
+   "sale_price": "15173400",
+   "price_range": null,
+   "currency_code": "IRT",
+   "currency_symbol": "تومان",
+   "currency_minor_unit": 0,
+   "currency_decimal_separator": ",",
+   "currency_thousand_separator": ".",
+   "currency_prefix": "تومان",
+   "currency_suffix": ""
+  },
+  "average_rating": "3.00",
+  "review_count": 2,
+  "is_in_stock": false,
+  "low_stock_remaining": null
+ },
+ {
+  "id": 9223,
+  "name": "گوشی اپل آیفون 11 Apple iPhone 11 128GB",
+  "type": "simple",
+  "permalink": "https://baaneeh.com/iphone-11-apple-128gb-6-1-inches",
+  "sku": "a-b21625",
+  "prices": {
+   "price": "29887000",
+   "regular_price": "29887000",
+   "sale_price": "29887000",
+   "price_range": null,
+   "currency_code": "IRT",
+   "currency_symbol": "تومان",
+   "currency_minor_unit": 0,
+   "currency_decimal_separator": ",",
+   "currency_thousand_separator": ".",
+   "currency_prefix": "تومان",
+   "currency_suffix": ""
+  },
+  "average_rating": "4.50",
+  "review_count": 2,
+  "is_in_stock": false,
+  "low_stock_remaining": null
+ },
+ {
+  "id": 9194,
+  "name": "گوشی اپل ایفون 11 پرو دو سیم کارت Apple iPhone 11 PRO 64GB",
+  "type": "simple",
+  "permalink": "https://baaneeh.com/apple-iphone-11-pro-64gb",
+  "sku": "a-b21602",
+  "prices": {
+   "price": "18428300",
+   "regular_price": "18428300",
+   "sale_price": "18428300",
+   "price_range": null,
+   "currency_code": "IRT",
+   "currency_symbol": "تومان",
+   "currency_minor_unit": 0,
+   "currency_decimal_separator": ",",
+   "currency_thousand_separator": ".",
+   "currency_prefix": "تومان",
+   "currency_suffix": ""
+  },
+  "average_rating": "3.00",
+  "review_count": 2,
+  "is_in_stock": false,
+  "low_stock_remaining": null
+ }
+]

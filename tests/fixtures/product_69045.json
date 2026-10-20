@@ -1,0 +1,188 @@
+{
+ "id": 69045,
+ "name": "تلویزیون شیائومی 65A PRO",
+ "slug": "xiaomi-65a-pro-tv",
+ "parent": 0,
+ "type": "simple",
+ "variation": "",
+ "permalink": "https://baaneeh.com/xiaomi-65a-pro-tv",
+ "sku": "aa60",
+ "short_description": "<ul>\n<li>نمایشگر 65 اینچی QLED</li>\n<li>کیفیت تصویر فورکی UHD</li>\n<li>رزولوشن 3840 در 2160 پیکسل</li>\n<li>پشتیبانی تصویری از HDR10 Plus</li>\n<li>پوشش 94 درصد DCI-P3</li>\n<li>نمایش 1.07 میلیارد رنگ</li>\n<li>پردازنده چهار هسته‌ای Cortex-A55</li>\n<li>سیستم عامل هوشمند Google TV</li>\n<li>فناوری روان‌سازی تصویر MEMC</li>\n<li>حالت بازی Game Boost</li>\n<li>قابلیت حرکتی DLG 120Hz</li>\n<li>توان صوتی کلی 20 وات</li>\n<li>پشتیبانی صوتی Dolby Audio DTS</li>\n<li>اشتراک‌گذاری بی‌سیم Apple AirPlay</li>\n<li>قابلیت داخلی Google Cast</li>\n<li>وای‌فای دو بانده و Bluetooth</li>\n</ul>",
+ "description": "<h2>تلویزیون شیائومی 65A Pro 2026 تجربه رنگ‌های زنده با نمایشگر QLED</h2> <p><strong>تلویزیون شیائومی 65A Pro 2026</strong> یکی از تلویزیون‌های هوشمند 65 اینچ سری A Pro است که برای کاربری خانگی، تماشای فیلم و سریال، محتوای آنلاین، مسابقات ورزشی و بازی طراحی شده و مهم‌ترین تفاوت آن با سری معمولی A را باید در استفاده از فناوری <strong>QLED</strong> جست‌وجو کرد. نمایشگر بزرگ 65 اینچی در کنار وضوح <strong>4K UHD با رزولوشن 3840×2160 پیکسل</strong> فضای مناسبی برای سالن‌های متوسط و نسبتاً بزرگ ایجاد می‌کند و جزئیات تصویر را با وضوح مطلوب به نمایش می‌گذارد. شیائومی برای این مدل تنها به افزایش تعداد ",
+ "on_sale": false,
+ "prices": {
+  "price": "187300000",
+  "regular_price": "187300000",
+  "sale_price": "187300000",
+  "price_range": null,
+  "currency_code": "IRT",
+  "currency_symbol": "تومان",
+  "currency_minor_unit": 0,
+  "currency_decimal_separator": ",",
+  "currency_thousand_separator": ".",
+  "currency_prefix": "تومان",
+  "currency_suffix": ""
+ },
+ "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#x62A;&#x648;&#x645;&#x627;&#x646;</span>187.300.000</span>",
+ "average_rating": "5.00",
+ "review_count": 1,
+ "images": [
+  {
+   "id": 69057,
+   "src": "https://baaneeh.com/wp-content/uploads/2026/10/65A-PRO-3.webp",
+   "alt": "تلویزیون شیائومی 65A PRO"
+  },
+  {
+   "id": 69047,
+   "src": "https://baaneeh.com/wp-content/uploads/2026/10/65A2026.2.webp",
+   "alt": "تلویزیون شیائومی 65A PRO"
+  },
+  {
+   "id": 69048,
+   "src": "https://baaneeh.com/wp-content/uploads/2026/10/65A2026.3.webp",
+   "alt": "تلویزیون شیائومی 65A PRO"
+  }
+ ],
+ "categories": [
+  {
+   "id": 317,
+   "name": "تلویزیون شیائومی",
+   "slug": "xiaomi",
+   "link": "https://baaneeh.com/tv/xiaomi"
+  },
+  {
+   "id": 78191,
+   "name": "انواع تلویزیون",
+   "slug": "types-of-tv",
+   "link": "https://baaneeh.com/tv/types-of-tv"
+  },
+  {
+   "id": 792,
+   "name": "انواع تلویزیون شیائومی ارزان",
+   "slug": "types-of-cheap-xiaomi-tvs",
+   "link": "https://baaneeh.com/tv/types-of-cheap-xiaomi-tvs"
+  },
+  {
+   "id": 791,
+   "name": "بزرگترین تلویزیون شیائومی بزرگ",
+   "slug": "the-largest-xiaomi-tv",
+   "link": "https://baaneeh.com/tv/the-largest-xiaomi-tv"
+  },
+  {
+   "id": 793,
+   "name": "بهترین تلویزیون شیائومی",
+   "slug": "the-best-xiaomi-tv",
+   "link": "https://baaneeh.com/tv/the-best-xiaomi-tv"
+  },
+  {
+   "id": 372,
+   "name": "تلویزیون 4k",
+   "slug": "4k",
+   "link": "https://baaneeh.com/tv/4k"
+  },
+  {
+   "id": 854,
+   "name": "تلویزیون 65 اینچ",
+   "slug": "65-inch-tv",
+   "link": "https://baaneeh.com/tv/65-inch-tv"
+  },
+  {
+   "id": 96,
+   "name": "تلویزیون 65 اینچ شیائومی",
+   "slug": "xiaomi-tv-65-inch",
+   "link": "https://baaneeh.com/tv/xiaomi-tv-65-inch"
+  },
+  {
+   "id": 727,
+   "name": "تلویزیون خارجی",
+   "slug": "foreign-tv",
+   "link": "https://baaneeh.com/tv/foreign-tv"
+  },
+  {
+   "id": 717,
+   "name": "تلویزیون خوب",
+   "slug": "good-tv",
+   "link": "https://baaneeh.com/tv/good-tv"
+  },
+  {
+   "id": 112,
+   "name": "تلویزیون شیائومی بانه",
+   "slug": "xiaomi-tv-baneh",
+   "link": "https://baaneeh.com/tv/xiaomi-tv-baneh"
+  },
+  {
+   "id": 786,
+   "name": "تلویزیون شیائومی سری",
+   "slug": "xiaomi-tv-series",
+   "link": "https://baaneeh.com/tv/xiaomi-tv-series"
+  },
+  {
+   "id": 114,
+   "name": "جدیدترین تلویزیون شیائومی جدید",
+   "slug": "xiaomi-new-year-tv",
+   "link": "https://baaneeh.com/tv/xiaomi-new-year-tv"
+  },
+  {
+   "id": 837,
+   "name": "خرید اینترنتی تلویزیون شیائومی",
+   "slug": "buy-xiaomi-tv-online",
+   "link": "https://baaneeh.com/tv/buy-xiaomi-tv-online"
+  },
+  {
+   "id": 324,
+   "name": "ریموت کنترل تلویزیون شیائومی",
+   "slug": "xiaomi-tv-remote-control",
+   "link": "https://baaneeh.com/tv/xiaomi-tv-remote-control"
+  },
+  {
+   "id": 836,
+   "name": "قیمت پرفروشترین تلویزیون شیائومی",
+   "slug": "xiaomi-s-best-selling-tv",
+   "link": "https://baaneeh.com/tv/xiaomi-s-best-selling-tv"
+  },
+  {
+   "id": 101,
+   "name": "قیمت تلویزیون شیائومی در گناوه",
+   "slug": "xiaomi-tv-ganaveh",
+   "link": "https://baaneeh.com/tv/xiaomi-tv-ganaveh"
+  }
+ ],
+ "tags": [],
+ "brands": [],
+ "attributes": [
+  {
+   "id": 1,
+   "name": "برند - تلویزیون - یخچال - ظرفشویی",
+   "taxonomy": "pa_manufacturer",
+   "has_variations": false,
+   "terms": [
+    {
+     "id": 3634,
+     "name": "شیائومی",
+     "slug": "xiaomi"
+    }
+   ]
+  }
+ ],
+ "variations": [],
+ "grouped_products": [],
+ "has_options": false,
+ "is_purchasable": true,
+ "is_in_stock": true,
+ "is_on_backorder": false,
+ "low_stock_remaining": null,
+ "stock_availability": {
+  "text": "",
+  "class": "in-stock"
+ },
+ "sold_individually": false,
+ "add_to_cart": {
+  "text": "افزودن به سبد خرید",
+  "description": "افزودن به سبد خرید: &ldquo;تلویزیون شیائومی 65A PRO&rdquo;",
+  "url": "?add-to-cart=69045",
+  "minimum": 1,
+  "maximum": 9999,
+  "multiple_of": 1
+ },
+ "extensions": {}
+}

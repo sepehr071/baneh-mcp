@@ -1,0 +1,122 @@
+{
+ "id": 3533,
+ "name": "کارت صدا آپلو ایکس 4 یونیور سال آدیو Apollo x4 Heritage Edition",
+ "slug": "universal-audio-apollo-x4-heritage-edition",
+ "parent": 0,
+ "type": "variable",
+ "variation": "",
+ "permalink": "https://baaneeh.com/universal-audio-apollo-x4-heritage-edition",
+ "sku": "a-b17980",
+ "short_description": "<div class=\"readmore js-read-more\" data-rm-words=\"29\">\n<ul>\n<li></li>\n<li><span style=\"color: #ff0000\">پشتیبانی و خرید: 09189768929</span></li>\n<li>پشیبانی از Cubase، Ableton Live</li>\n<li>تعداد کانال ها 8 عدد</li>\n<li>ابعاد 27.9 × 20.3 × 12.7 سانتی‌متر</li>\n<li>وزن 5.85 پوند</li>\n<li>مدل نامبر APX4 -HE</li>\n<li>نام تجاری Universal Audio</li>\n</ul>\n</div>",
+ "description": "<div class=\"accordion_header\">\n<p><span class=\"redarrow\"><i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i>نقد و بررسی کارت صدا آپلو ایکس 4 یونیور سال آدیو Apollo x4 Heritage Edition</span>میکروفون Talkback داخلی و عملکرد مانیتور اختصاصی از جمله عملکردهای مانیتور از راه دور و کنترل‌های مانیتور Mo",
+ "on_sale": false,
+ "prices": {
+  "price": "105875000",
+  "regular_price": "0",
+  "sale_price": "0",
+  "price_range": null,
+  "currency_code": "IRT",
+  "currency_symbol": "تومان",
+  "currency_minor_unit": 0,
+  "currency_decimal_separator": ",",
+  "currency_thousand_separator": ".",
+  "currency_prefix": "تومان",
+  "currency_suffix": ""
+ },
+ "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#x62A;&#x648;&#x645;&#x627;&#x646;</span>0</span>",
+ "average_rating": "3.00",
+ "review_count": 1,
+ "images": [
+  {
+   "id": 56971,
+   "src": "https://baaneeh.com/wp-content/uploads/2026/03/ix45_3__2.jpg.webp",
+   "thumbnail": "https://baaneeh.com/wp-content/uploads/2026/03/ix45_3__2.jpg-247x296.webp",
+   "srcset": "https://baaneeh.com/wp-content/uploads/2026/03/ix45_3__2.jpg.webp 650w, https://baaneeh.com/wp-content/uploads/2026/03/ix45_3__2.jpg-100x100.webp 100w, https://baaneeh.com/wp-content/uploads/2026/03/ix45_3__2.jpg-510x510.webp 510w, https://baaneeh.com/wp-content/uploads/2026/03/ix45_3__2-300x300.jpg.webp 300w, https://baaneeh.com/wp-content/uploads/2026/03/ix45_3__2-150x150.jpg.webp 150w",
+   "sizes": "(max-width: 650px) 100vw, 650px",
+   "name": "ix45_3__2",
+   "alt": ""
+  }
+ ],
+ "categories": [
+  {
+   "id": 377,
+   "name": "کارت گرافیک و ماینر",
+   "slug": "graphic-card",
+   "link": "https://baaneeh.com/digital/graphic-card"
+  },
+  {
+   "id": 17,
+   "name": "فروشگاه خرید و قیمت بانه",
+   "slug": "default-category",
+   "link": "https://baaneeh.com/default-category"
+  },
+  {
+   "id": 62597,
+   "name": "ناموجود",
+   "slug": "stock",
+   "link": "https://baaneeh.com/stock"
+  }
+ ],
+ "tags": [],
+ "brands": [],
+ "attributes": [
+  {
+   "id": 1303,
+   "name": "ID آپدیت",
+   "taxonomy": "pa_a-id-up",
+   "has_variations": true,
+   "terms": [
+    {
+     "id": 71892,
+     "name": "a-b15479",
+     "slug": "a-b15479"
+    },
+    {
+     "id": 75532,
+     "name": "a-b19119",
+     "slug": "a-b19119"
+    }
+   ]
+  }
+ ],
+ "variations": [
+  {
+   "id": 63604,
+   "attributes": [
+    {
+     "name": "ID آپدیت",
+     "value": "a-b15479"
+    }
+   ]
+  },
+  {
+   "id": 63618,
+   "attributes": [
+    {
+     "name": "ID آپدیت",
+     "value": "a-b19119"
+    }
+   ]
+  }
+ ],
+ "grouped_products": [],
+ "has_options": true,
+ "is_purchasable": true,
+ "is_in_stock": false,
+ "is_on_backorder": false,
+ "low_stock_remaining": 0,
+ "stock_availability": {
+  "text": "",
+  "class": ""
+ },
+ "sold_individually": false,
+ "add_to_cart": {
+  "text": "انتخاب گزینه‌ها",
+  "description": "انتخاب گزینه‌ها برای &ldquo;کارت صدا آپلو ایکس 4 یونیور سال آدیو Apollo x4 Heritage Edition&rdquo;",
+  "url": "https://baaneeh.com/universal-audio-apollo-x4-heritage-edition",
+  "minimum": 1,
+  "maximum": 9999,
+  "multiple_of": 1
+ },
+ "extensions": {}
+}

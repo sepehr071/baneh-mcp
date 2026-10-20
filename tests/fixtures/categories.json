@@ -1,0 +1,705 @@
+{
+ "total": 1087,
+ "items": [
+  {
+   "id": 194,
+   "name": "آب مرکبات گیر",
+   "slug": "citrus-juicer",
+   "parent": 21,
+   "count": 31
+  },
+  {
+   "id": 327,
+   "name": "آبسردکن",
+   "slug": "water-cooler",
+   "parent": 21,
+   "count": 17
+  },
+  {
+   "id": 193,
+   "name": "آبمیوه گیری",
+   "slug": "juicer",
+   "parent": 21,
+   "count": 122
+  },
+  {
+   "id": 1076,
+   "name": "آچار",
+   "slug": "wrench",
+   "parent": 295,
+   "count": 14
+  },
+  {
+   "id": 188,
+   "name": "آسیاب برقی و آسیاب قهوه",
+   "slug": "grinder",
+   "parent": 21,
+   "count": 34
+  },
+  {
+   "id": 39,
+   "name": "ابزار آلات بانه",
+   "slug": "tools",
+   "parent": 0,
+   "count": 1227
+  },
+  {
+   "id": 295,
+   "name": "ابزار غیر برقی",
+   "slug": "typical-tool",
+   "parent": 39,
+   "count": 70
+  },
+  {
+   "id": 264,
+   "name": "ابعاد تلویزیون ال جی",
+   "slug": "lg-inch-tv-dimensions",
+   "parent": 47,
+   "count": 338
+  },
+  {
+   "id": 183,
+   "name": "اتو بخار دستی",
+   "slug": "steam-iron",
+   "parent": 30,
+   "count": 243
+  },
+  {
+   "id": 248,
+   "name": "اتو بخارگر ایستاده دستی",
+   "slug": "garment-steamer",
+   "parent": 30,
+   "count": 23
+  },
+  {
+   "id": 184,
+   "name": "اتو پرس",
+   "slug": "press-iron1",
+   "parent": 30,
+   "count": 74
+  },
+  {
+   "id": 30,
+   "name": "اتو پرس و اتو بخار",
+   "slug": "press-iron",
+   "parent": 0,
+   "count": 369
+  },
+  {
+   "id": 330,
+   "name": "اتو لوله",
+   "slug": "pipe-welding",
+   "parent": 39,
+   "count": 11
+  },
+  {
+   "id": 249,
+   "name": "اتو مخزن دار",
+   "slug": "steam-generator-iron",
+   "parent": 30,
+   "count": 35
+  },
+  {
+   "id": 333,
+   "name": "اتو مو",
+   "slug": "hair-straighteners",
+   "parent": 50,
+   "count": 66
+  },
+  {
+   "id": 200,
+   "name": "اجاق گاز ، باربیکیو",
+   "slug": "gas-stove",
+   "parent": 21,
+   "count": 52
+  },
+  {
+   "id": 722,
+   "name": "ارزانترین تلویزیون ارزان",
+   "slug": "the-cheapest-cheap-tv",
+   "parent": 47,
+   "count": 804
+  },
+  {
+   "id": 263,
+   "name": "ارزانترین تلویزیون ال جی ارزان",
+   "slug": "cheap-lg-tv",
+   "parent": 47,
+   "count": 99
+  },
+  {
+   "id": 750,
+   "name": "ارزانترین تلویزیون سامسونگ",
+   "slug": "the-cheapest-samsung-tv",
+   "parent": 47,
+   "count": 218
+  },
+  {
+   "id": 278,
+   "name": "ارزانترین تلویزیون سونی ارزان",
+   "slug": "the-cheapest-sony-tv",
+   "parent": 47,
+   "count": 10
+  },
+  {
+   "id": 587,
+   "name": "ارزانترین ساید و یخچال فریزر ارزان",
+   "slug": "the-cheapest-side-fridge-and-cheap-freezer",
+   "parent": 25,
+   "count": 28
+  },
+  {
+   "id": 452,
+   "name": "ارزانترین کولر پنجره ای کوچک",
+   "slug": "the-cheapest-small-window-cooler",
+   "parent": 22,
+   "count": 9
+  },
+  {
+   "id": 387,
+   "name": "ارزانترین کولر گازی اسپلیت",
+   "slug": "the-cheapest-split-air-conditioner",
+   "parent": 22,
+   "count": 163
+  },
+  {
+   "id": 433,
+   "name": "ارزانترین کولر گازی ایستاده کوچک",
+   "slug": "the-cheapest-small-standing-air-conditioner",
+   "parent": 22,
+   "count": 7
+  },
+  {
+   "id": 1043,
+   "name": "ارزانترین ماشین لباسشویی",
+   "slug": "the-cheapest-washing-machine",
+   "parent": 27,
+   "count": 18
+  },
+  {
+   "id": 626,
+   "name": "ارزانترین یخچال دوقلو ارزان",
+   "slug": "the-cheapest-twin-refrigerators",
+   "parent": 25,
+   "count": 9
+  },
+  {
+   "id": 644,
+   "name": "ارزانترین یخچال سامسونگ",
+   "slug": "the-cheapest-samsung-refrigerator",
+   "parent": 25,
+   "count": 26
+  },
+  {
+   "id": 610,
+   "name": "ارزانترین یخچال ساید ال جی",
+   "slug": "the-cheapest-side-lg-refrigerator",
+   "parent": 25,
+   "count": 27
+  },
+  {
+   "id": 268,
+   "name": "اره",
+   "slug": "saw",
+   "parent": 39,
+   "count": 180
+  },
+  {
+   "id": 1064,
+   "name": "اره پروفیل بر",
+   "slug": "cut-off-saw",
+   "parent": 268,
+   "count": 14
+  },
+  {
+   "id": 1067,
+   "name": "اره زنجیری شارژی و بنزینی",
+   "slug": "chain-saw",
+   "parent": 268,
+   "count": 59
+  },
+  {
+   "id": 1066,
+   "name": "اره فارسی بر",
+   "slug": "compound-mitre-saw",
+   "parent": 268,
+   "count": 20
+  },
+  {
+   "id": 1065,
+   "name": "اره گرد بر",
+   "slug": "circular-saw",
+   "parent": 268,
+   "count": 25
+  },
+  {
+   "id": 62618,
+   "name": "اره میزی",
+   "slug": "over-saw",
+   "parent": 268,
+   "count": 3
+  },
+  {
+   "id": 196,
+   "name": "اسپرسو نسپرسو ساز",
+   "slug": "espresso-maker",
+   "parent": 21,
+   "count": 115
+  },
+  {
+   "id": 376,
+   "name": "اسپیکر",
+   "slug": "speakers-1",
+   "parent": 48,
+   "count": 98
+  },
+  {
+   "id": 979,
+   "name": "استایلر",
+   "slug": "styler",
+   "parent": 30,
+   "count": 1
+  },
+  {
+   "id": 1063,
+   "name": "افقی بر و عمود بر",
+   "slug": "recipro-saw",
+   "parent": 268,
+   "count": 35
+  },
+  {
+   "id": 323,
+   "name": "اندازه و ابعاد و سایز تلویزیون",
+   "slug": "size-and-dimensions-of-the-tv",
+   "parent": 47,
+   "count": 877
+  },
+  {
+   "id": 425,
+   "name": "انواع ارزانترین و بهترین کولر گازی پرتابل",
+   "slug": "the-best-and-cheapest-portable-air-conditioners",
+   "parent": 22,
+   "count": 21
+  },
+  {
+   "id": 537,
+   "name": "انواع بهترین کولر گازی اجنرال",
+   "slug": "the-price-of-the-best-types-of-general-air-conditioners",
+   "parent": 22,
+   "count": 29
+  },
+  {
+   "id": 9566,
+   "name": "انواع بهترین کولر گازی جنرال",
+   "slug": "the-best-general-ac",
+   "parent": 22,
+   "count": 87
+  },
+  {
+   "id": 523,
+   "name": "انواع بهترین کولر گازی سامسونگ",
+   "slug": "types-of-the-best-samsung-air-conditioners",
+   "parent": 22,
+   "count": 9
+  },
+  {
+   "id": 533,
+   "name": "انواع بهترین کولر گازی هایسنس",
+   "slug": "types-of-the-best-hisense-air-conditioners",
+   "parent": 22,
+   "count": 14
+  },
+  {
+   "id": 549,
+   "name": "انواع بهترین مدل کولر گازی ال جی",
+   "slug": "types-of-the-best-models-of-lg-air-conditioners",
+   "parent": 22,
+   "count": 21
+  },
+  {
+   "id": 78191,
+   "name": "انواع تلویزیون",
+   "slug": "types-of-tv",
+   "parent": 47,
+   "count": 76
+  },
+  {
+   "id": 774,
+   "name": "انواع تلویزیون ال جی",
+   "slug": "types-of-lg-tvs",
+   "parent": 47,
+   "count": 441
+  },
+  {
+   "id": 746,
+   "name": "انواع تلویزیون سامسونگ",
+   "slug": "types-of-samsung-tvs",
+   "parent": 47,
+   "count": 260
+  },
+  {
+   "id": 761,
+   "name": "انواع تلویزیون سونی",
+   "slug": "all-types-of-sony-tvs",
+   "parent": 47,
+   "count": 141
+  },
+  {
+   "id": 792,
+   "name": "انواع تلویزیون شیائومی ارزان",
+   "slug": "types-of-cheap-xiaomi-tvs",
+   "parent": 47,
+   "count": 41
+  },
+  {
+   "id": 385,
+   "name": "انواع کولر گازی اسپلیت",
+   "slug": "types-of-split-air-conditioners",
+   "parent": 22,
+   "count": 323
+  },
+  {
+   "id": 436,
+   "name": "انواع کولر گازی ایستاده و اسپلیت زمینی",
+   "slug": "types-of-standing-and-ground-split-air-conditioners",
+   "parent": 22,
+   "count": 33
+  },
+  {
+   "id": 155,
+   "name": "انواع کوله پشتی",
+   "slug": "backpack",
+   "parent": 50,
+   "count": 15
+  },
+  {
+   "id": 1032,
+   "name": "انواع ماشین لباسشویی",
+   "slug": "types-of-washing-machines",
+   "parent": 27,
+   "count": 190
+  },
+  {
+   "id": 488,
+   "name": "انواع مدل کولر گازی گری",
+   "slug": "types-of-air-conditioner-models",
+   "parent": 22,
+   "count": 90
+  },
+  {
+   "id": 641,
+   "name": "انواع مدل یخچال سامسونگ",
+   "slug": "samsung-refrigerator-models",
+   "parent": 25,
+   "count": 33
+  },
+  {
+   "id": 612,
+   "name": "انواع یخچال ساید ال جی",
+   "slug": "models-of-side-lg-refrigerators",
+   "parent": 25,
+   "count": 26
+  },
+  {
+   "id": 618,
+   "name": "انواع یخچال فریزر دوقلو",
+   "slug": "lg-and-samsung-twin-refrigerators",
+   "parent": 25,
+   "count": 20
+  },
+  {
+   "id": 583,
+   "name": "انواع یخچال و فریزر",
+   "slug": "types-of-refrigerators-and-freezers",
+   "parent": 25,
+   "count": 214
+  },
+  {
+   "id": 1072,
+   "name": "اور فرز نجاری",
+   "slug": "electric-trimming",
+   "parent": 273,
+   "count": 14
+  },
+  {
+   "id": 132,
+   "name": "باند حرفه ای و اسپیکر",
+   "slug": "home-system",
+   "parent": 18,
+   "count": 70
+  },
+  {
+   "id": 302,
+   "name": "باند و بلندگو ماشین",
+   "slug": "speakers",
+   "parent": 41,
+   "count": 102
+  },
+  {
+   "id": 115,
+   "name": "بانه مارکت",
+   "slug": "banehmarket",
+   "parent": 0,
+   "count": 260
+  },
+  {
+   "id": 337,
+   "name": "بخارشوی",
+   "slug": "steam-cleaner",
+   "parent": 29,
+   "count": 39
+  },
+  {
+   "id": 29,
+   "name": "بخارشوی و کارواش",
+   "slug": "steam-cleaner-carwash",
+   "parent": 0,
+   "count": 95
+  },
+  {
+   "id": 363,
+   "name": "برس حرارتی",
+   "slug": "hair-straightening-brush",
+   "parent": 50,
+   "count": 6
+  },
+  {
+   "id": 805,
+   "name": "برند تلویزیون سامسونگ مارک",
+   "slug": "samsung-tv-brand",
+   "parent": 47,
+   "count": 240
+  },
+  {
+   "id": 776,
+   "name": "بزرگترین تلویزیون ال جی بزرگ",
+   "slug": "the-largest-lg-tv",
+   "parent": 47,
+   "count": 122
+  },
+  {
+   "id": 730,
+   "name": "بزرگترین تلویزیون بزرگ",
+   "slug": "bigest-tv",
+   "parent": 47,
+   "count": 836
+  },
+  {
+   "id": 738,
+   "name": "بزرگترین تلویزیون بزرگ سامسونگ",
+   "slug": "samsung-big-tv",
+   "parent": 47,
+   "count": 118
+  },
+  {
+   "id": 765,
+   "name": "بزرگترین تلویزیون سونی بزرگ",
+   "slug": "sony-big-tv",
+   "parent": 47,
+   "count": 30
+  },
+  {
+   "id": 791,
+   "name": "بزرگترین تلویزیون شیائومی بزرگ",
+   "slug": "the-largest-xiaomi-tv",
+   "parent": 47,
+   "count": 12
+  },
+  {
+   "id": 643,
+   "name": "بزرگترین یخچال سامسونگ",
+   "slug": "samsung-s-largest-fridge-freezer-side",
+   "parent": 25,
+   "count": 16
+  },
+  {
+   "id": 590,
+   "name": "بزرگترین یخچال ساید بای ساید و فریزر",
+   "slug": "the-largest-side-by-side-refrigerator-and-freezer",
+   "parent": 25,
+   "count": 33
+  },
+  {
+   "id": 624,
+   "name": "بزرگترین یخچال فریزر دوقلو خارجی",
+   "slug": "the-largest-external-twin-fridge-freezer",
+   "parent": 25,
+   "count": 16
+  },
+  {
+   "id": 366,
+   "name": "بستنی ساز",
+   "slug": "ice-cream-maker",
+   "parent": 21,
+   "count": 4
+  },
+  {
+   "id": 286,
+   "name": "بکس برقی و شارژی و بادی",
+   "slug": "impact-wrench",
+   "parent": 39,
+   "count": 77
+  },
+  {
+   "id": 812,
+   "name": "بلندگو تلویزیون سامسونگ",
+   "slug": "samsung-tv-speaker",
+   "parent": 47,
+   "count": 233
+  },
+  {
+   "id": 386,
+   "name": "بهترین برند کولر گازی اسپلیت",
+   "slug": "the-best-brand-of-split-air-conditioner",
+   "parent": 22,
+   "count": 325
+  },
+  {
+   "id": 729,
+   "name": "بهترین تلویزیون",
+   "slug": "the-best-tv",
+   "parent": 47,
+   "count": 946
+  },
+  {
+   "id": 772,
+   "name": "بهترین تلویزیون ال جی",
+   "slug": "the-best-lg-tv",
+   "parent": 47,
+   "count": 421
+  },
+  {
+   "id": 747,
+   "name": "بهترین تلویزیون سامسونگ",
+   "slug": "the-best-samsung-tv",
+   "parent": 47,
+   "count": 247
+  },
+  {
+   "id": 760,
+   "name": "بهترین تلویزیون سونی",
+   "slug": "the-best-sony-tv",
+   "parent": 47,
+   "count": 111
+  },
+  {
+   "id": 793,
+   "name": "بهترین تلویزیون شیائومی",
+   "slug": "the-best-xiaomi-tv",
+   "parent": 47,
+   "count": 42
+  },
+  {
+   "id": 466,
+   "name": "بهترین داکت اسپلیت ارزان",
+   "slug": "the-best-cheap-split-duct",
+   "parent": 22,
+   "count": 24
+  },
+  {
+   "id": 434,
+   "name": "بهترین کولر گازی ایستاده اینورتر و کم مصرف",
+   "slug": "the-best-standing-inverter-air-conditioner-with-low-consumption",
+   "parent": 22,
+   "count": 7
+  },
+  {
+   "id": 728,
+   "name": "بهترین مارک تلویزیون",
+   "slug": "the-best-tv-brand",
+   "parent": 47,
+   "count": 912
+  },
+  {
+   "id": 1034,
+   "name": "بهترین ماشین لباسشویی",
+   "slug": "the-best-washing-machine",
+   "parent": 27,
+   "count": 114
+  },
+  {
+   "id": 489,
+   "name": "بهترین مدل اسپلیت گری اصل",
+   "slug": "the-best-original-split-gree-model",
+   "parent": 22,
+   "count": 89
+  },
+  {
+   "id": 619,
+   "name": "بهترین مدل یخچال دوقلو",
+   "slug": "the-best-model-of-lg-and-samsung-twin-refrigerators",
+   "parent": 25,
+   "count": 20
+  },
+  {
+   "id": 614,
+   "name": "بهترین مدل یخچال فریزر ال جی",
+   "slug": "the-best-lg-refrigerator-model",
+   "parent": 25,
+   "count": 46
+  },
+  {
+   "id": 608,
+   "name": "بهترین یخچال ال جی",
+   "slug": "the-best-lg-refrigerator",
+   "parent": 25,
+   "count": 48
+  },
+  {
+   "id": 635,
+   "name": "بهترین یخچال بوش",
+   "slug": "the-best-model-of-bosch-refrigerator-freezer",
+   "parent": 25,
+   "count": 27
+  },
+  {
+   "id": 593,
+   "name": "بهترین یخچال فریزر ساید بای ساید",
+   "slug": "the-best-side-by-side-fridge-freezer",
+   "parent": 25,
+   "count": 103
+  },
+  {
+   "id": 642,
+   "name": "بهترین یخچال فریزر ساید سامسونگ",
+   "slug": "samsung-s-best-fridge-freezer-side",
+   "parent": 25,
+   "count": 8
+  },
+  {
+   "id": 356,
+   "name": "پاپ کورن ساز",
+   "slug": "popcorn-maker",
+   "parent": 21,
+   "count": 4
+  },
+  {
+   "id": 62614,
+   "name": "پاور استیشن",
+   "slug": "powerstation",
+   "parent": 39,
+   "count": 5
+  },
+  {
+   "id": 378,
+   "name": "پاور و مادربرد و پردازنده",
+   "slug": "cpu-motherboard",
+   "parent": 48,
+   "count": 3
+  },
+  {
+   "id": 1082,
+   "name": "پایه دیواری",
+   "slug": "brackets",
+   "parent": 320,
+   "count": 11
+  },
+  {
+   "id": 1049,
+   "name": "پرفروش ترین ماشین لباسشویی",
+   "slug": "best-selling-washing-machine",
+   "parent": 27,
+   "count": 136
+  }
+ ]
+}

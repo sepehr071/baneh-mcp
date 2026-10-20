@@ -1,0 +1,35 @@
+{
+ "total": 2,
+ "items": [
+  {
+   "id": 149,
+   "date_created": "2026-03-13T20:48:24",
+   "formatted_date_created": "مارس 13, 2026",
+   "date_created_gmt": "2026-03-13T17:18:24",
+   "product_id": 6663,
+   "product_name": "گوشی دو سیم کارت سامسونگ گلکسی اَی5 (2016) Samsung Galaxy A5 SM-A510FD",
+   "product_permalink": "https://baaneeh.com/2016-samsung-galaxy-a5",
+   "product_image": null,
+   "reviewer": "سجادk",
+   "review": "<p>گوشی عالی از نظر کیفیت ساخت وطراحی وارگونومی و دارتی امکانات کافی در مقایسه با بهای پرداختی.به نظر من ایرادات این گوشی یک عدم پشتیبانی از ارنباط با سیم با TVودوم عدم نمایش multiteskingاست.که دومی با یک نرم افزار قابل جبران است ولی ایراد اول برای تلویزیونهایی که دارای ارتباط بیسیم نیستند قابل رفع نیست</p>\n",
+   "rating": 5,
+   "verified": false,
+   "reviewer_avatar_urls": null
+  },
+  {
+   "id": 10,
+   "date_created": "2026-03-13T20:47:13",
+   "formatted_date_created": "مارس 13, 2026",
+   "date_created_gmt": "2026-03-13T17:17:13",
+   "product_id": 6663,
+   "product_name": "گوشی دو سیم کارت سامسونگ گلکسی اَی5 (2016) Samsung Galaxy A5 SM-A510FD",
+   "product_permalink": "https://baaneeh.com/2016-samsung-galaxy-a5",
+   "product_image": null,
+   "reviewer": "محمد",
+   "review": "<p>گوشیه زیبا و خوبیه.</p>\n",
+   "rating": 4,
+   "verified": false,
+   "reviewer_avatar_urls": null
+  }
+ ]
+}

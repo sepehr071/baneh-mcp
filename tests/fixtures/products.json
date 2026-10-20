@@ -1,0 +1,116 @@
+{
+ "total": 1896,
+ "items": [
+  {
+   "id": 69045,
+   "name": "تلویزیون شیائومی 65A PRO",
+   "type": "simple",
+   "permalink": "https://baaneeh.com/xiaomi-65a-pro-tv",
+   "sku": "aa60",
+   "prices": {
+    "price": "187300000",
+    "regular_price": "187300000",
+    "sale_price": "187300000",
+    "price_range": null,
+    "currency_code": "IRT",
+    "currency_symbol": "تومان",
+    "currency_minor_unit": 0,
+    "currency_decimal_separator": ",",
+    "currency_thousand_separator": ".",
+    "currency_prefix": "تومان",
+    "currency_suffix": ""
+   },
+   "average_rating": "5.00",
+   "review_count": 1,
+   "is_in_stock": true,
+   "low_stock_remaining": null
+  },
+  {
+   "id": 69023,
+   "name": "تلویزیون ال جی 55QNED80T",
+   "type": "simple",
+   "permalink": "https://baaneeh.com/lg-55qned80t-tv-4k-smart",
+   "sku": "aa79",
+   "prices": {
+    "price": "122000000",
+    "regular_price": "122000000",
+    "sale_price": "122000000",
+    "price_range": null,
+    "currency_code": "IRT",
+    "currency_symbol": "تومان",
+    "currency_minor_unit": 0,
+    "currency_decimal_separator": ",",
+    "currency_thousand_separator": ".",
+    "currency_prefix": "تومان",
+    "currency_suffix": ""
+   },
+   "average_rating": "5.00",
+   "review_count": 1,
+   "is_in_stock": true,
+   "low_stock_remaining": null
+  },
+  {
+   "id": 68991,
+   "name": "تلویزیون سونی 75XR70M2",
+   "type": "simple",
+   "permalink": "https://baaneeh.com/sony-75xr70m2-tv-led-120hz-4k-2026",
+   "sku": "aa210",
+   "prices": {
+    "price": "864000000",
+    "regular_price": "864000000",
+    "sale_price": "864000000",
+    "price_range": null,
+    "currency_code": "IRT",
+    "currency_symbol": "تومان",
+    "currency_minor_unit": 0,
+    "currency_decimal_separator": ",",
+    "currency_thousand_separator": ".",
+    "currency_prefix": "تومان",
+    "currency_suffix": ""
+   },
+   "average_rating": "5.00",
+   "review_count": 1,
+   "is_in_stock": true,
+   "low_stock_remaining": null
+  },
+  {
+   "id": 68922,
+   "name": "تلویزیون سامسونگ 83S90H",
+   "type": "simple",
+   "permalink": "https://baaneeh.com/samsung-83s90h-tv",
+   "sku": "aa208",
+   "prices": {
+    "price": "1100000000",
+    "regular_price": "1100000000",
+    "sale_price": "1100000000",
+    "price_range": null,
+    "currency_code": "IRT",
+    "currency_symbol": "تومان",
+    "currency_minor_unit": 0,
+    "currency_decimal_separator": ",",
+    "currency_thousand_separator": ".",
+    "currency_prefix": "تومان",
+    "currency_suffix": ""
+   },
+   "average_rating": "5.00",
+   "review_count": 1,
+   "is_in_stock": true,
+   "low_stock_remaining": null
+  },
+  {
+   "id": 6244,
+   "name": "لباسشویی مینی واش مدل MLZ-001 و 1 کیلویی",
+   "type": "simple",
+   "prices": {
+    "price": "0",
+    "regular_price": "0",
+    "price_range": null
+   },
+   "is_in_stock": true,
+   "low_stock_remaining": null,
+   "average_rating": "5.00",
+   "review_count": 1,
+   "permalink": "https://baaneeh.com/?p=6244"
+  }
+ ]
+}
