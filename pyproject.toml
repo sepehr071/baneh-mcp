@@ -1,13 +1,13 @@
 [project]
 name = "baneh-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Unofficial read-only MCP server for Baneh (baaneeh.com): search home appliances, TVs and electronics, find the cheapest in-stock price."
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
 authors = [{ name = "Sepehr Radmard", email = "sepehrr80@gmail.com" }]
 requires-python = ">=3.10"
-keywords = ["mcp", "model-context-protocol", "baneh", "baaneeh", "iran", "e-commerce", "shopping", "electronics"]
+keywords = ["mcp", "mcp-server", "model-context-protocol", "ai-agents", "iran", "persian", "baneh", "baaneeh", "e-commerce", "shopping", "home-appliances", "electronics", "price-comparison", "woocommerce"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
