@@ -1,6 +1,6 @@
 [project]
 name = "baneh-mcp"
-version = "0.1.1"
+version = "0.1.2"
 description = "Unofficial read-only MCP server for Baneh (baaneeh.com): search home appliances, TVs and electronics, find the cheapest in-stock price."
 readme = "README.md"
 license = "MIT"
