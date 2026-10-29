@@ -13,6 +13,7 @@ search products, find the cheapest in-stock match, browse by category or brand a
 [![CI](https://github.com/sepehr071/baneh-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/sepehr071/baneh-mcp/actions/workflows/ci.yml)
 [![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.sepehr071%2Fbaneh--mcp-7c3aed)](https://registry.modelcontextprotocol.io/?q=baneh-mcp)
 [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](https://github.com/sepehr071/baneh-mcp/blob/main/LICENSE)
+[![mcpfarsi](https://mcpfarsi.ir/badge/baneh.svg)](https://mcpfarsi.ir/servers/baneh/)
 
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_baneh--mcp-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=baneh&config=%7B%22command%22%3A%22uvx%22%2C%22args%22%3A%5B%22baneh-mcp%22%5D%7D)
 
@@ -329,6 +330,7 @@ Releases: bump the version in `pyproject.toml` and `server.json`, then push a `v
 - [torob-mcp](https://github.com/sepehr071/torob-mcp) for price comparison across Iranian shops
 - [masterkala-mcp](https://github.com/sepehr071/masterkala-mcp) for Masterkala products
 - [asalbanoo-mcp](https://github.com/sepehr071/asalbanoo-mcp) for cosmetics and skin care
+- Listed on [mcpfarsi.ir](https://mcpfarsi.ir/servers/baneh/), the Persian MCP marketplace
 
 ## Disclaimer
 

@@ -29,6 +29,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/sepehr071/baneh-mcp"
 Issues = "https://github.com/sepehr071/baneh-mcp/issues"
+Website = "https://mcpfarsi.ir/servers/baneh/"
 
 [project.scripts]
 baneh-mcp = "baneh_mcp.server:main"
