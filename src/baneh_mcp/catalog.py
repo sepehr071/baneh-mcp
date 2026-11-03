@@ -145,6 +145,20 @@ async def _with_images(cards: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 async def _list(params: dict[str, Any], sort: str, limit: int, page: int) -> dict[str, Any]:
     """Listing in the output shape of bn_search / bn_browse."""
+    out = await _list_page(params, sort, limit, page)
+    if not out["products"] and page == 1 and ("min_price" in params or "max_price" in params):
+        # an empty price range is usually a range this catalog does not cover: say where the matches are
+        free = {k: v for k, v in params.items() if k not in ("min_price", "max_price")}
+        data, total = await rest(PRODUCTS, {**free, "per_page": PAGE, "_fields": LIST_FIELDS})
+        prices = [c["final_price"] for c in map(card, data) if c["final_price"]]
+        if prices:
+            out["hint"] = (
+                f"No match in this price range; {total} match without it, priced {min(prices)} to {max(prices)} Toman."
+            )
+    return out
+
+
+async def _list_page(params: dict[str, Any], sort: str, limit: int, page: int) -> dict[str, Any]:
     if sort == "newest":  # the shop's own order: ask for just the page wanted
         data, total = await rest(PRODUCTS, {**params, "per_page": limit, "page": page, "_fields": LIST_FIELDS})
         return {"total": total or 0, "page": page, "products": await _with_images([card(p) for p in data])}
