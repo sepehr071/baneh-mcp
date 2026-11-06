@@ -28,32 +28,30 @@ Query = Annotated[
     Field(
         min_length=2,
         max_length=100,
-        description="Product name or keyword, Persian or English, e.g. 'تلویزیون ال جی 55' or 'iphone'.",
+        description="Product name or keyword, Persian or English, e.g. 'iphone'.",
     ),
 ]
 CategorySlug = Annotated[
     str | None,
     Field(
         pattern=r"^[a-z0-9-]{2,80}$",
-        description="Category slug from bn_categories, e.g. 'tv' or 'air-conditioners-cooler'.",
+        description="Slug from bn_categories, e.g. 'tv'.",
     ),
 ]
 BrandSlug = Annotated[
     str | None,
-    Field(pattern=r"^[a-z0-9-]{2,60}$", description="Brand slug from bn_brands, e.g. 'lg' or 'xiaomi'."),
+    Field(pattern=r"^[a-z0-9-]{2,60}$", description="Slug from bn_brands, e.g. 'lg'."),
 ]
 Sort = Annotated[
     Literal["newest", "cheapest", "most_expensive", "top_rated"],
-    Field(
-        description="Order. 'newest' is the shop's own order (latest added first); the others are sorted here over all matches."
-    ),
+    Field(description="'newest' is the shop's order; the others are sorted here over all matches."),
 ]
 InStockOnly = Annotated[
-    bool, Field(description="Only items in stock. Out-of-stock items are mostly discontinued, with stale prices.")
+    bool, Field(description="Only items in stock (the rest are mostly discontinued, stale prices).")
 ]
 MinPrice = Annotated[int | None, Field(ge=0, description="Minimum price in Toman, e.g. 5000000.")]
 MaxPrice = Annotated[int | None, Field(ge=1, description="Maximum price in Toman, e.g. 20000000.")]
-Limit = Annotated[int, Field(ge=1, le=50, description="Max products to return.")]
+Limit = Annotated[int, Field(ge=1, le=50, description="Max products.")]
 
 
 def _int(v: Any) -> int | None:
@@ -175,14 +173,12 @@ async def bn_search(
     min_price: MinPrice = None,
     max_price: MaxPrice = None,
     limit: Limit = 15,
-    page: Annotated[
-        int, Field(ge=1, le=50, description="Result page of `limit`-sized pages (only for sort 'newest').")
-    ] = 1,
+    page: Annotated[int, Field(ge=1, le=50, description="Only for sort 'newest'.")] = 1,
 ) -> dict[str, Any]:
     """Search Baneh products by name in Persian or English, with price (Toman), stock and rating.
 
-    Use to find products and their ids. A multi-word query must appear as a phrase in the title; for the lowest
-    price of a product use bn_find_cheapest, which matches words in any order. Next: bn_product for one id.
+    A multi-word query must appear as a phrase in the title; for the lowest price use bn_find_cheapest.
+    Next: bn_product.
     """
     params = _params(query, None, None, in_stock_only, min_price, max_price)
     return await _list(params, sort, limit, page)
@@ -198,9 +194,8 @@ async def bn_find_cheapest(
 ) -> dict[str, Any]:
     """Find the cheapest products whose title contains every word of the query, one list sorted by price (Toman).
 
-    Use for the lowest price of X. Words may come in any order. Raise min_price to skip accessories and spare parts.
-    Items without a price are skipped. complete=false means more matches exist than were scanned (2,000 cap).
-    Check bn_product before buying: the same title can be a different model or size.
+    Words may come in any order. Raise min_price to skip accessories and spare parts. Unpriced items are skipped.
+    complete=false means more matches than the 2,000 scanned.
     """
     words = _norm(query).split()
     params = _params(query, None, None, in_stock_only, min_price, max_price)
@@ -222,14 +217,11 @@ async def bn_browse(
     min_price: MinPrice = None,
     max_price: MaxPrice = None,
     limit: Limit = 15,
-    page: Annotated[
-        int, Field(ge=1, le=50, description="Result page of `limit`-sized pages (only for sort 'newest').")
-    ] = 1,
+    page: Annotated[int, Field(ge=1, le=50, description="Only for sort 'newest'.")] = 1,
 ) -> dict[str, Any]:
     """List products of a category and/or brand, optionally in a price range, sorted by price or rating.
 
-    Use after bn_categories / bn_brands to see what a section holds, e.g. the cheapest in-stock LG TVs
-    (category='tv', brand='lg', sort='cheapest'). Give at least one of category, brand or a price bound.
+    Use after bn_categories / bn_brands. Give at least one of category, brand or a price bound.
     """
     if not (category or brand or min_price or max_price):
         raise ToolError("Give a category, a brand or a price range; use bn_search for keywords.")
@@ -253,22 +245,21 @@ async def _all_categories() -> list[dict[str, Any]]:
 async def bn_categories(
     query: Annotated[
         str | None,
-        Field(max_length=60, description="Only categories whose name or slug contains this, e.g. 'یخچال' or 'tv'."),
+        Field(max_length=60, description="Name or slug contains this, e.g. 'یخچال'."),
     ] = None,
     parent: Annotated[
         str | None,
         Field(
             pattern=r"^[a-z0-9-]{2,80}$",
-            description="Slug of a parent category to list its subcategories, e.g. 'home-appliances'.",
+            description="Parent slug, to list its subcategories, e.g. 'home-appliances'.",
         ),
     ] = None,
-    limit: Annotated[int, Field(ge=1, le=100, description="Max categories to return.")] = 40,
+    limit: Annotated[int, Field(ge=1, le=100, description="Max categories.")] = 40,
 ) -> dict[str, Any]:
     """List shop categories with slug and product count, biggest first.
 
-    Without arguments returns the top-level sections. Use `parent` to open one, or `query` to search all of them.
-    Counts include out-of-stock products. The shop has hundreds of SEO-style subcategories under 'tv'
-    (e.g. 'best tv', 'tv price'); they hold the same products. Pass a slug to bn_browse as `category`.
+    No arguments: top-level sections. Use `parent` to open one, `query` to search all. Counts include
+    out-of-stock products. Hundreds of SEO subcategories under 'tv' hold the same products. Slug goes to bn_browse.
     """
     cats = await _all_categories()
     by_id = {c["id"]: c for c in cats}
@@ -311,14 +302,13 @@ async def _brands() -> list[dict[str, Any]]:
 async def bn_brands(
     query: Annotated[
         str | None,
-        Field(max_length=60, description="Only brands whose name or slug contains this, e.g. 'سامسونگ' or 'bosch'."),
+        Field(max_length=60, description="Name or slug contains this, e.g. 'bosch'."),
     ] = None,
-    limit: Annotated[int, Field(ge=1, le=100, description="Max brands to return.")] = 50,
+    limit: Annotated[int, Field(ge=1, le=100, description="Max brands.")] = 50,
 ) -> dict[str, Any]:
     """List brands (about 150, e.g. LG, Samsung, Bosch, Xiaomi) with slug and product count, biggest first.
 
-    Use to get the slug for bn_browse's `brand`. Counts include out-of-stock products.
-    Brands exist only for the products tagged with the shop's brand attribute (not every tool or phone).
+    Slug goes to bn_browse's `brand`. Counts include out-of-stock products; not every product has a brand.
     """
     brands = await _brands()
     if query:

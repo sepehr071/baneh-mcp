@@ -12,9 +12,7 @@ from .catalog import JUNK_CATEGORIES, PRODUCTS, card
 from .http import rest
 from .registry import tool
 
-ProductId = Annotated[
-    int, Field(ge=1, description="Product id from bn_search, bn_find_cheapest or bn_browse, e.g. 69045.")
-]
+ProductId = Annotated[int, Field(ge=1, description="Product id from a search or browse, e.g. 69045.")]
 JUNK_ATTRIBUTES = {"pa_a-id-up"}  # 'ID آپدیت': the shop's internal update id, set on nearly every product
 
 
@@ -32,8 +30,7 @@ def _clip(text: str, n: int | None) -> str:
 async def bn_product(product_id: ProductId) -> dict[str, Any]:
     """Get one product: price (Toman), stock, rating, brand, categories, spec attributes, highlights, description, images.
 
-    Use after a search or browse to check details of one id. Variable products list their variations
-    (options only; the shop publishes no per-variation price or stock). Next: bn_reviews for buyer opinions.
+    Variations list options only (no per-variation price or stock). Next: bn_reviews.
     """
     p, _ = await rest(f"{PRODUCTS}/{product_id}")
     attrs = [a for a in p.get("attributes") or [] if a["taxonomy"] not in JUNK_ATTRIBUTES and a.get("terms")]
@@ -67,16 +64,14 @@ async def bn_product(product_id: ProductId) -> dict[str, Any]:
 @tool("Get product reviews")
 async def bn_reviews(
     product_id: ProductId,
-    limit: Annotated[int, Field(ge=1, le=30, description="Max reviews to return.")] = 10,
+    limit: Annotated[int, Field(ge=1, le=30, description="Max reviews.")] = 10,
     page: Annotated[int, Field(ge=1, le=100, description="Result page of `limit`-sized pages.")] = 1,
-    full_text: Annotated[
-        bool, Field(description="Return whole review texts instead of cutting them at 400 characters.")
-    ] = False,
+    full_text: Annotated[bool, Field(description="Whole texts instead of 400-char cuts.")] = False,
 ) -> dict[str, Any]:
     """Get buyer reviews of one product, newest first: rating 1-5, author, date, text.
 
-    Use to check quality or complaints. Many products carry one long generated 'summary of buyer opinions' by
-    'دیدگاه خریداران' instead of real reviews; treat those as marketing text. Dates are Gregorian.
+    Many products carry one generated 'دیدگاه خریداران' summary instead of real reviews (marketing text).
+    Dates are Gregorian.
     """
     data, total = await rest(f"{PRODUCTS}/reviews", {"product_id": product_id, "per_page": limit, "page": page})
     return {
