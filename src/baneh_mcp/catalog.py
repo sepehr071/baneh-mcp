@@ -35,7 +35,7 @@ CategorySlug = Annotated[
     str | None,
     Field(
         pattern=r"^[a-z0-9-]{2,80}$",
-        description="Slug from bn_categories, e.g. 'tv'.",
+        description="Slug from bn_categories, e.g. 'tv' or 'air-conditioners-cooler'.",
     ),
 ]
 BrandSlug = Annotated[
@@ -194,8 +194,8 @@ async def bn_find_cheapest(
 ) -> dict[str, Any]:
     """Find the cheapest products whose title contains every word of the query, one list sorted by price (Toman).
 
-    Words may come in any order. Raise min_price to skip accessories and spare parts. Unpriced items are skipped.
-    complete=false means more matches than the 2,000 scanned.
+    Use for the lowest price of X. Words may come in any order. Raise min_price to skip accessories and spare parts. Unpriced items are skipped.
+    complete=false means more matches than the 2,000 scanned. The same title can be a different model or size.
     """
     words = _norm(query).split()
     params = _params(query, None, None, in_stock_only, min_price, max_price)
@@ -221,7 +221,8 @@ async def bn_browse(
 ) -> dict[str, Any]:
     """List products of a category and/or brand, optionally in a price range, sorted by price or rating.
 
-    Use after bn_categories / bn_brands. Give at least one of category, brand or a price bound.
+    Use after bn_categories / bn_brands to see what a section holds, e.g. the cheapest in-stock LG TVs
+    (category='tv', brand='lg', sort='cheapest'). Give at least one of category, brand or a price bound.
     """
     if not (category or brand or min_price or max_price):
         raise ToolError("Give a category, a brand or a price range; use bn_search for keywords.")
