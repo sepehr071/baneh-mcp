@@ -170,21 +170,6 @@ Use slugs from `bn_categories` and `bn_brands` with `bn_browse`, and a product i
 
 All 7 tools are annotated `readOnlyHint: true` and return compact JSON.
 
-## How it works
-
-```text
-  AI agent  (Claude, Cursor, Copilot, ...)
-      │
-      │  MCP over stdio
-      ▼
-  baneh-mcp  (runs on your machine)
-      │
-      │  HTTPS
-      └──────▶  baaneeh.com   WooCommerce Store API
-```
-
-`baneh-mcp` runs locally and calls the public WooCommerce Store API that the baaneeh.com website itself exposes. There is no hosted server in between and no API key. Requests go out through a Chrome-impersonating client, at most 2 at a time with a little jitter, and failed GETs are retried up to twice. It only reads.
-
 ## Good to know
 
 - **Prices are in Toman**, the shop's own amounts. A few look wrong (a USB cable at 144 million Toman); check the product page before relying on extremes.
